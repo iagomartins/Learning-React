@@ -40,3 +40,27 @@
   background: #ccc;
   color: #333;
 }
+.product-list .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.product-list .actions button {
+  padding: 5px;
+  border-radius: 5px;
+  background: #333333;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.product-list .actions button:hover:not([disabled]) {
+  background: #ccc;
+  color: #333;
+}
+.product-list .actions button[disabled] {
+  opacity: 0.3;
+  cursor: default;
+}
